@@ -93,7 +93,7 @@
             "key": "py_p站",
             "name": "🔞py_p 站",
             "type": 3,
-            "api": "./py/py_phu.py",
+            "api": "./py/py_Phu.py",
             "searchable": 1,
             "quickSearch": 0,
             "filterable": 0,
