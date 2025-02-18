@@ -1,66 +1,66 @@
 {
-    "spider": "./pg.jar",
+    "spider": "./pg.jar"，
     "sites": [
         {
-            "key": "豆瓣",
-            "name": "豆瓣",
-            "type": 3,
-            "api": "csp_Douban",
-            "searchable": 0,
-            "changeable": 1,
-            "indexs": 1,
+            "key": "豆瓣"，
+            "name": "豆瓣"，
+            "type": 3，
+            "api": "csp_Douban"，
+            "searchable": 0，
+            "changeable": 1，
+            "indexs": 1，
             "ext": "./lib/douban.json"
-        },
+        }，
         {
-            "key": "py_AiGuaTV",
-            "name": "爱瓜TV(T4)",
-            "type": 4,
-            "api": "https://spider.doube.eu.org/spider?site=AiGuaTV",
-            "searchable": 1,
-            "quickSearch": 0,
-            "filterable": 0,
+            "key": "py_AiGuaTV"，
+            "name": "爱瓜TV(T4)"，
+            "type": 4，
+            "api": "https://spider.doube.eu.org/spider?site=AiGuaTV"，
+            "searchable": 1，
+            "quickSearch": 0，
+            "filterable": 0，
             "changeable": 0
-        },
+        }，
         {
-            "key": "py_UpFuHn",
-            "name": "Hi视频(T4)",
-            "type": 4,
-            "api": "https://py.doube.eu.org/spider?site=UpFuHn",
-            "searchable": 1,
-            "quickSearch": 0,
-            "filterable": 0,
+            "key": "py_UpFuHn"，
+            "name": "Hi视频(T4)"，
+            "type": 4，
+            "api": "https://py.doube.eu.org/spider?site=UpFuHn"，
+            "searchable": 1，
+            "quickSearch": 0，
+            "filterable": 0，
             "changeable": 0
-        },
+        }，
         {
-            "key": "py_OleVod",
-            "name": "欧乐影院(T4)",
-            "type": 4,
-            "api": "https://py.doube.eu.org/spider?site=OleVod",
-            "searchable": 1,
-            "quickSearch": 0,
-            "filterable": 0,
+            "key": "py_OleVod"，
+            "name": "欧乐影院(T4)"，
+            "type": 4，
+            "api": "https://py.doube.eu.org/spider?site=OleVod"，
+            "searchable": 1，
+            "quickSearch": 0，
+            "filterable": 0，
             "changeable": 0
-        },
+        }，
         {
-            "key": "py_Dm84",
-            "name": "动漫巴士(T4)",
-            "type": 4,
-            "api": "https://py.doube.eu.org/spider?site=Dm84",
-            "searchable": 1,
-            "quickSearch": 0,
-            "filterable": 0,
+            "key": "py_Dm84"，
+            "name": "动漫巴士(T4)"，
+            "type": 4，
+            "api": "https://py.doube.eu.org/spider?site=Dm84"，
+            "searchable": 1，
+            "quickSearch": 0，
+            "filterable": 0，
             "changeable": 0
-        },
+        }，
         {
-            "key": "py_BaHaoTV",
-            "name": "八号影院(T4)",
-            "type": 4,
-            "api": "https://py.doube.eu.org/spider?site=BaHaoTV",
-            "searchable": 1,
-            "quickSearch": 0,
-            "filterable": 0,
+            "key": "py_BaHaoTV"，
+            "name": "八号影院(T4)"，
+            "type": 4，
+            "api": "https://py.doube.eu.org/spider?site=BaHaoTV"，
+            "searchable": 1，
+            "quickSearch": 0，
+            "filterable": 0，
             "changeable": 0
-        },
+        }，
         {
             "key": "csp_LaoBaiBook",
             "name": "📚听书┃BOOK",
