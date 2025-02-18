@@ -75,242 +75,89 @@
             }
         }，
         {
-            "key": "Bi8TV"，
-            "name": "Bi8TV"，
+            "key": "乐哥特供-鬼片电影大全"，
+            "name": "👻鬼片┃电影"，
             "type": 3，
             "api": "csp_XBPQ"，
-            "jar": "./lib/XBPQ.jar"，
-            "style": {
-                "type": "rect"，
-                "ratio": 1.485
-            }，
-            "ext": {
-                "主页url": "https://v3.bi888.link/"，
-                "直接播放": "1"，
-                "图片": "img src=\"&&\""，
-                "标题": "alt=\"&&\"",
-                "链接": "href=\"&&\""，
-                "分类url": "https://v3.bi888.link/vodtype/{cateId}-{catePg}.html"，
-                "分类": "精品推荐$20#国产精品$21#日韩精品$22#欧美精品$23#中文字幕$24#日韩无码$25#日韩有码$26#网红主播$27#卡通动漫$28#探花系列$29#SM重味$30#自拍偷拍$31#强奸乱伦$32#口交视频$33#自慰系列$34#教师学生$35#3P合辑$36#巨乳系列$37#颜射系列$38#制服诱惑$39#萝莉少女$40#人兽之恋$41#人妻熟女$42#女同性恋$43#稀缺资源$45#三级伦理$44#空姐模特$48#国产盗摄$49#人妖系列$50#虚拟VR$51"
-            }
-        }，
-        {
-            "key": "csp_XYQHiker_stripchat直播"，
-            "name": "🔞StripChat直播(XYQHiker)"，
-            "type": 3，
-            "api": "csp_XYQHiker"，
-            "jar": "./jar/XYQ.jar"，
+            "jar": "./lib/xyqxbpq.jar"，
             "searchable": 1，
-            "quickSearch": 0，
-            "filterable": 0，
-            "ext": "./js/stripchat直播.json"，
-            "style": {
-                "type": "rect"，
-                "ratio": 1.6
-            }
-        }，
-        {
-            "key": "csp_XYQHiker"，
-            "name": "🔞bongacams直播"，
-            "type": 3，
-            "api": "csp_XYQHiker",
-            "jar": "./jar/XYQ.jar"，
-            "searchable": 1，
-            "quickSearch": 0，
-            "filterable": 0，
-            "ext": "./js/bongacams直播.json"，
-            "style": {
-                "type": "rect"，
-                "ratio": 1.6
-            }
-        }，
-        {
-            "key": "MissAV全分类"，
-            "name": "❤️MissAV|全分类"，
-            "type": 3，
-            "api": "csp_XBPQ"，
-            "jar": "./lib/XBPQ.jar"，
-            "playerType": "2"，
             "quickSearch": 1，
-            "style": {
-                "type": "rect"，
-                "ratio": 1.485
-            }，
-            "searchable": 1，
+            "filterable": 1，
             "ext": {
                 "请求头": "User-Agent$MOBILE_UA"，
                 "编码": "UTF-8"，
-                "主页url": "https://missav.ws/dm10/cn"，
-                "数组": "\"lozad&&</div>[不包含:item.dvd_id]"，
-                "图片": "src=\"&&\""，
-                "标题": "alt=\"&&\""，
-                "副标题": "<span class=\"absolute*>&&</span"，
-                "简介": "keywords\" content=\"&&\""，
-                "链接": "href=\"&&\""，
-                "搜索url": "https://missav.com/ws/search/{wd}?page={pg}"，
-                "分类url": "https://missav.ws/{cateId}?page={catePg};;z"，
-                "分类": "中文字幕$dm265/cn/chinese-subtitle#最近更新$dm509/cn/new#新作上市$dm504/cn/release#无码流出$dm558/cn/uncensored-leak#VR$cn/genres/VR#今日热门$dm242/cn/today-hot#本週热门$dm167/cn/weekly-hot#本月热门$dm206/cn/monthly-hot#SIRO$dm23/cn/siro#LUXU$dm20/cn/luxu#GANA$dm17/cn/gana#PRESTIGE PREMIUM$dm14/cn/maan#S-CUTE$dm23/cn/scute#ARA$dm19/cn/ara#无码流出$dm558/cn/uncensored-leak#FC2$dm94/cn/fc2#HEYZO$dm621/cn/heyzo#东京热$dm29/cn/tokyohot#一本道$dm39925/cn/1pondo#Caribbeancom$dm75695/cn/caribbeancom#Caribbeancompr$dm1200/cn/caribbeancompr#10musume$dm39286/cn/10musume#pacopacomama$dm663/cn/pacopacomama#Gachinco$dm135/cn/gachinco#XXX-AV$dm25/cn/xxxav#人妻斩$dm24/cn/marriedslash#顽皮 4610$dm19/cn/naughty4610#顽皮 0930$dm22/cn/naughty0930#麻豆传媒$dm31/cn/madou#TWAV$dm17/cn/twav#Furuke$dm14/cn/furuke"
-            }
-        }，
-        {
-            "key": "csp_MOTV"，
-            "name": "🔞MOTV"，
-            "type": 3，
-            "api": "csp_XYQHiker"，
-            "jar": "./jar/XYQ.jar"，
-            "searchable": 1，
-            "quickSearch": 0，
-            "filterable": 0，
-            "ext": "./js/motv.json"，
-            "style": {
-                "type": "rect"，
-                "ratio": 1.6
-            }
-        }，
-        {
-            "key": "采集集合go"，
-            "name": "采集集合go"，
-            "type": 1，
-            "api": "http://zhangqun1818.serv00.net:5053"，
-            "searchable": 1，
-            "style": {
-                "type": "rect"，
-                "ratio": 1.33
-            }，
-            "quickSearch": 0，
-            "changeable": 0
-        }，
-        {
-            "key": "色播"，
-            "name": "色播🍓直播"，
-            "type": 3，
-            "api": "./js/色播.js"，
-            "searchable": 1，
-            "changeable": 0，
-            "style": {
-                "type": "list"
-            }
-        }，
-        {
-            "key": "BtSow",
-            "name": "🔞BtSow磁力",
-            "type": 3,
-            "api": "csp_BtSow",
-            "quickSearch": 1,
-            "changeable": 1,
-            "filterable": 1,
-            "timeout": 60
-        },
-        {
-            "key": "BtSearch",
-            "name": "🔞BtSearch搜",
-            "type": 3,
-            "api": "csp_BtSearch",
-            "quickSearch": 1,
-            "changeable": 1,
-            "filterable": 1,
-            "timeout": 60
-        },
-        {
-            "key": "Clg",
-            "name": "🔞磁力狗磁力",
-            "type": 3,
-            "api": "csp_Clg",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1,
-            "filterable": 0,
-            "timeout": 60,
-            "ext": "./lib/tokenm.json$$$https://clg.clgvip1.xyz/$$$proxy$$$1",
-            "style": {
-                "type": "rect",
-                "ratio": 1.5
-            }
-        },
-        {
-            "key": "乐哥特供-鬼片电影大全",
-            "name": "👻鬼片┃电影",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "jar": "./lib/xyqxbpq.jar",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": {
-                "请求头": "User-Agent$MOBILE_UA",
-                "编码": "UTF-8",
-                "主页url": "https://www.guipian.cn/",
+                "主页url": "https://www.guipian.cn/"，
                 "二次截取": "pic-list clearfix\"&&</ul>",
-                "数组": "<li>&&</li>",
-                "标题": "title=\"&&\"",
-                "图片": "src=\"&&\"",
-                "副标题": "s1\"&&</span>",
-                "链接": "href=\"&&\"",
-                "简介": "<strong>简介：&&</p>",
-                "播放数组": "player\"&&</ul>",
-                "播放列表": "<a&&a>",
-                "播放链接": "href=\"&&\"",
-                "播放标题": ">&&<",
-                "线路二次截取": "<h2>&&</h2>",
+                "数组": "<li>&&</li>"，
+                "标题": "title=\"&&\""，
+                "图片": "src=\"&&\""，
+                "副标题": "s1\"&&</span>"，
+                "链接": "href=\"&&\""，
+                "简介": "<strong>简介：&&</p>"，
+                "播放数组": "player\"&&</ul>"，
+                "播放列表": "<a&&a>"，
+                "播放链接": "href=\"&&\""，
+                "播放标题": ">&&<"，
+                "线路二次截取": "<h2>&&</h2>"，
                 "线路数组": "<option&&/option>",
-                "线路标题": ">&&<",
-                "搜索模式": "1",
-                "搜索url": "https://www.guipian.cn/GuipianSearch/{wd}----------{pg}---.html",
-                "搜索数组": "<li>&&</li>",
-                "搜索标题": "<h3&&</h3>",
-                "搜索图片": "src=\"&&\"",
-                "搜索副标题": "<p&&</p >",
-                "跳转播放链接": "var player_*\"url\":\"&&\"",
-                "分类url": "https://www.guipian.cn/GuipianShow/{cateId}-{area}-{by}-{class}-{lang}----{catePg}---{year}.html",
-                "分类": "电影$SCCCCS#剧集$qCCCCS#综艺$xCCCCS#动漫$lCCCCS#短剧$wCCCCS#福利片$PCCCCS",
-                "筛选": "1",
+                "线路标题": ">&&<"，
+                "搜索模式": "1"，
+                "搜索url": "https://www.guipian.cn/GuipianSearch/{wd}----------{pg}---.html"，
+                "搜索数组": "<li>&&</li>"，
+                "搜索标题": "<h3&&</h3>"，
+                "搜索图片": "src=\"&&\""，
+                "搜索副标题": "<p&&</p >"，
+                "跳转播放链接": "var player_*\"url\":\"&&\""，
+                "分类url": "https://www.guipian.cn/GuipianShow/{cateId}-{area}-{by}-{class}-{lang}----{catePg}---{year}.html"，
+                "分类": "电影$SCCCCS#剧集$qCCCCS#综艺$xCCCCS#动漫$lCCCCS#短剧$wCCCCS#福利片$PCCCCS"，
+                "筛选": "1"，
                 "类型": "动作片$YCCCCS#喜剧片$bCCCCS#爱情片$LCCCCS#科幻片$FCCCCS#恐怖片$QCCCCS#战争片$sCCCCS#剧情片$jCCCCS#伦理片$PCCCCS#4k超清$ACCCCS#动画电影$NCCCCS#邵氏老电影$VCCCCS#纪录片$eCCCCS||国产剧$vCCCCS#国产剧$vCCCCS韩剧$9CCCCS#美剧$RCCCCS#港剧$yCCCCS#台剧$0CCCCS#泰剧$HCCCCS#日剧$uCCCCS#海外剧$nCCCCS||空||空||空||空"
             }
-        },
+        }，
         {
-            "key": "乐哥特供-鬼片之家②",
-            "name": "👻鬼片②┃之家",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "jar": "./lib/xyqxbpq.jar",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
+            "key": "乐哥特供-鬼片之家②"，
+            "name": "👻鬼片②┃之家"，
+            "type": 3，
+            "api": "csp_XBPQ"，
+            "jar": "./lib/xyqxbpq.jar"，
+            "searchable": 1，
+            "quickSearch": 1，
+            "filterable": 1，
             "ext": {
-                "请求头": "User-Agent$MOBILE_UA",
-                "编码": "UTF-8",
-                "主页url": "https://www.guipian360.com/",
-                "二次截取": "class=\"m-movies clearfix\"&&id=\"page\"",
-                "数组": "<article&&</article>",
-                "图片": "src=\"&&\"",
-                "标题": "title=\"&&\"",
-                "副标题": "<span>&&</span>",
-                "链接": "href=\"&&\"",
-                "播放数组": "class=\"abc\"&&</ul>",
-                "播放列表": "<li>&&</li>",
-                "播放链接": "href=\"&&\"",
-                "播放标题": ">&&</a>",
-                "线路二次截取": "<dl>&&</dl>",
-                "线路数组": "<li>&&</li>",
-                "线路标题": ">&&</a>",
-                "跳转播放链接": "var player_*\"url\":\"&&\"",
-                "简介": "简介：</span>&&</p>",
-                "搜索url": "https://www.guipian360.com/vodsearch/{wd}----------{pg}---.html",
-                "分类url": "https://www.guipian360.com/list/{cateId}-{catePg}.html",
-                "分类": "鬼片大全$1#恐怖片$3#动漫$4#电视剧$2",
+                "请求头": "User-Agent$MOBILE_UA"，
+                "编码": "UTF-8"，
+                "主页url": "https://www.guipian360.com/"，
+                "二次截取": "class=\"m-movies clearfix\"&&id=\"page\""，
+                "数组": "<article&&</article>"，
+                "图片": "src=\"&&\""，
+                "标题": "title=\"&&\""，
+                "副标题": "<span>&&</span>"，
+                "链接": "href=\"&&\""，
+                "播放数组": "class=\"abc\"&&</ul>"，
+                "播放列表": "<li>&&</li>"，
+                "播放链接": "href=\"&&\""，
+                "播放标题": ">&&</a>"，
+                "线路二次截取": "<dl>&&</dl>"，
+                "线路数组": "<li>&&</li>"，
+                "线路标题": ">&&</a>"，
+                "跳转播放链接": "var player_*\"url\":\"&&\""，
+                "简介": "简介：</span>&&</p>"，
+                "搜索url": "https://www.guipian360.com/vodsearch/{wd}----------{pg}---.html"，
+                "分类url": "https://www.guipian360.com/list/{cateId}-{catePg}.html"，
+                "分类": "鬼片大全$1#恐怖片$3#动漫$4#电视剧$2"，
                 "类型": "大陆鬼片$6#日韩鬼片$7#林正英鬼片$8#港台鬼片$9#泰国鬼片$10#欧美鬼片$11||空||空||国产剧$12#美剧$13#韩剧$14#日剧$15#泰剧$16#港台剧$20#其他剧$22"
             }
-        },
+        }，
         {
-            "key": "乐哥特供-鬼片之家①",
-            "name": "👻鬼片①┃之家",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "jar": "./lib/xyqxbpq.jar",
+            "key": "乐哥特供-鬼片之家①"，
+            "name": "👻鬼片①┃之家"，
+            "type": 3，
+            "api": "csp_XBPQ"，
+            "jar": "./lib/xyqxbpq.jar"，
             "ext": {
-                "请求头": "User-Agent$MOBILE_UA",
-                "编码": "UTF-8",
-                "主页url": "https://www.guipian365.com/",
+                "请求头": "User-Agent$MOBILE_UA"，
+                "编码": "UTF-8"，
+                "主页url": "https://www.guipian365.com/"，
                 "数组": "hl-lazy\"&&</li>",
                 "标题": "title=\"&&\"",
                 "图片": "data-original=\"&&\"",
