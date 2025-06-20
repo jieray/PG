@@ -1,65 +1,65 @@
 {
-  "spider": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/asdf1319964f/TV/master/PG/PG.jar"，
+  "spider": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/asdf1319964f/TV/master/PG/PG.jar",
   "sites": [
     {
-      "key": "网盘配置"，
-      "name": "网盘及彈幕配置"，
-      "type": 3，
-      "api": "csp_Config"，
-      "searchable": 0，
-      "changeable": 0，
+      "key": "网盘配置",
+      "name": "网盘及彈幕配置",
+      "type": 3,
+      "api": "csp_Config",
+      "searchable": 0,
+      "changeable": 0,
       "ext": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/asdf1319964f/TV/master/PG/lib/tokenm.json"
-    }，
+    },
     {
-      "key": "Youtube"，
-      "name": "Youtube"，
-      "type": 3，
-      "api": "csp_Youtube"，
-      "searchable": 1，
-      "quickSearch": 0，
-      "changeable": 0，
+      "key": "Youtube",
+      "name": "Youtube",
+      "type": 3,
+      "api": "csp_Youtube",
+      "searchable": 1,
+      "quickSearch": 0,
+      "changeable": 0,
       "ext": {
-        "json": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/asdf1319964f/TV/master/PG/lib/youtube.json"，
-        "type": "直播#新闻#剧集#电影#综艺#纪录片#音乐#体育#动物#风光#放松#4K#HDR#movie#music#documentary#bbc documentary#national geographic documentary"，
-        "proxy": "proxy"，
-        "keywords": "wooang,排行榜,HOT,TRENDS,热门话题,热门趋势,热门综艺,热门电影,热门电视剧,小姐姐"，
+        "json": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/asdf1319964f/TV/master/PG/lib/youtube.json",
+        "type": "直播#新闻#剧集#电影#综艺#纪录片#音乐#体育#动物#风光#放松#4K#HDR#movie#music#documentary#bbc documentary#national geographic documentary",
+        "proxy": "proxy",
+        "keywords": "wooang,排行榜,HOT,TRENDS,热门话题,热门趋势,热门综艺,热门电影,热门电视剧,小姐姐",
         "codecs": ""
-      }，
+      },
       "style": {
-        "type": "rect"，
+        "type": "rect",
         "ratio": 1.5
       }
-    }，
+    },
     {     
-            "key": "索尼采集"，
-            "name": "索尼采集"，
-            "type": 0，
-            "jar": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/asdf1319964f/TV/master/PG/XBPQ.jar"，
-            "api": "https://suoniapi.com/api.php/provide/vod/from/snm3u8/at/xml"，
-            "playerType": 1，
-            "searchable": 1，
-            "changeable": 1，
+            "key": "索尼采集",
+            "name": "索尼采集",
+            "type": 0,
+            "jar": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/asdf1319964f/TV/master/PG/XBPQ.jar",
+            "api": "https://suoniapi.com/api.php/provide/vod/from/snm3u8/at/xml",
+            "playerType": 1,
+            "searchable": 1,
+            "changeable": 1,
             "categories": [
-                "伦理"，
-                "港台三级"，
-                "韩国伦理"，
-                "西方伦理"，
-                "日本伦理"，
-                "两性课堂"，
+                "伦理",
+                "港台三级",
+                "韩国伦理",
+                "西方伦理",
+                "日本伦理",
+                "两性课堂",
                 "写真热舞"
             ]
-        }，
+        },
        
       {
-            "key": "13AV"，
-            "name": "🔞13AV"，
-            "type": 3，
-            "api": "csp_XBPQ"，
-            "jar": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/asdf1319964f/TV/master/PG/XBPQ.jar"，
+            "key": "13AV",
+            "name": "🔞13AV",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "jar": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/asdf1319964f/TV/master/PG/XBPQ.jar",
             "style": {
-                "type": "rect"，
+                "type": "rect",
                 "ratio": 1.5
-            }，
+            },
             "ext": {
                 "主页url": "https://13av.com/",
                 "过滤词": ".mp4",
