@@ -164,17 +164,25 @@ class Spider(Spider):
             plist = []
             d = djs['xplayerSettings']['sources']
             f = d.get('standard')
-            if d.get('hls'):
-                for format_type, info in d['hls'].items():
-                    if url := info.get('url'):
-                        encoded = self.e64(f'{0}@@@@{url}')
-                        plist.append(f"{format_type}${encoded}")
+            def custom_sort_key(url):
+                quality = url.split('$')[0]
+                number = ''.join(filter(str.isdigit, quality))
+                number = int(number) if number else 0
+                return -number, quality
+                
             if f:
                 for key, value in f.items():
                     if isinstance(value, list):
                         for info in value:
                             id = self.e64(f'{0}@@@@{info.get("url") or info.get("fallback")}')
                             plist.append(f"{info.get('label') or info.get('quality')}${id}")
+            plist.sort(key=custom_sort_key)
+            if d.get('hls'):
+                for format_type, info in d['hls'].items():
+                    if url := info.get('url'):
+                        encoded = self.e64(f'{0}@@@@{url}')
+                        plist.append(f"{format_type}${encoded}")
+                        
         except Exception as e:
             plist = [f"{vn}${self.e64(f'{1}@@@@{ids[0]}')}"]
             print(f"获取视频信息失败: {str(e)}")
