@@ -12,6 +12,26 @@
             "ext": "./lib/tokenm.json$$$./lib/douban.json"
         },
         {
+            "key": "lf_js_search",
+            "name": "🧠路飞|搜索",
+            "type": 3,
+            "searchable": 0,
+            "changeable": 1,
+            "quickSearch": 0,
+            "filterable": 0,
+            "api": "./js/lf_search3_min.js"
+        },
+        {
+            "key": "lf_js_ikanbot",
+            "name": "🧠点播|路飞",
+            "type": 3,
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "api": "./js/lf_ikanbot5_2_min.js"
+        },
+        {
             "key": "瓜子影视",
             "name": "👖瓜子影视",
             "type": 3,
