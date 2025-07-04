@@ -12,6 +12,15 @@
             "ext": "./lib/tokenm.json$$$./lib/douban.json"
         },
         {
+            "key": "黑木资源",
+            "name": "👖黑木影视",
+            "type": 1,
+            "api": "https://heimuer.ggff.net/api.php/tvbox",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
             "key": "lf_js_search",
             "name": "🧠路飞|搜索",
             "type": 3,
@@ -3347,14 +3356,6 @@
             "type": 3,
             "api": "csp_TTian",
             "ext": "http://app.kzjtv.com$$$null$$$1"
-        },
-        {
-            "key": "黑木耳",
-            "name": "黑木耳",
-            "type": 1,
-            "api": "http://127.0.0.1:10079/p/0/null/https://json.heimuer.xyz/api.php/provide/vod/",
-            "searchable": 1,
-            "quickSearch": 1
         },
         {
             "key": "索尼资源",
